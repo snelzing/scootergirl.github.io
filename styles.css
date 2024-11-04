@@ -13,16 +13,11 @@ header {
     padding: 1rem 0;
 }
 
-nav {
-    background-color: #333; /* Dark background for the nav bar */
-    padding: 10px 0;        /* Padding for the nav */
-    margin: 2em;
-}
-
 .nav-menu {
         display: flex; /* Test flex */
         background-color: black; /* Test background */
         color: white; /* Test text color */
+        margin: 2em;
 }
 
 .nav-menu li {
