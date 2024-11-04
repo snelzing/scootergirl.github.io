@@ -16,7 +16,3 @@ title: Welcome to Shelby's Blog
         {% endfor %}
     </ul>
 </section>
-
-<footer>
-    <p>&copy; 2024 Shelby's Blog</p>
-</footer>
