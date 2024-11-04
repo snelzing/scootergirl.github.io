@@ -7,15 +7,15 @@ body {
 }
 
 header {
-    background-color: #4CAF50; /* Header background color */
+    background-color: #4CAF50; /* Green header background */
     color: white;
     text-align: center;
     padding: 1rem 0;
 }
 
 nav {
-    background-color: #333; /* Add a dark background for the nav bar */
-    padding: 10px 0;        /* Add padding for spacing */
+    background-color: #333; /* Dark background for the nav bar */
+    padding: 10px 0;        /* Padding for the nav */
 }
 
 .nav-menu {
@@ -23,11 +23,11 @@ nav {
     padding: 0;           /* Remove default padding */
     margin: 0;            /* Remove default margin */
     display: flex;        /* Use flexbox to align items in a row */
-    justify-content: center; /* Center the nav items horizontally */
+    justify-content: center; /* Center the nav items */
 }
 
 .nav-menu li {
-    margin-right: 20px;   /* Add some space between the items */
+    margin: 0 15px;       /* Space between the items */
 }
 
 .nav-menu a {
