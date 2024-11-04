@@ -12,3 +12,7 @@ So to create a github repo, you need to make a new repo and name it "(your githu
 
 If you are new to all this, you can create an index.html with some stuff to make sure it is being served. But you are just testing GitHub's servers at that point. I like a good sanity test every now and again though.
 
+## Oh yeah, an important note.
+
+Github Pages takes FOREVER to refresh. Don't be surprised if you are fitting f5 for a few good minutes before anything shows up. Put that short attention to use and watch a YouTube short or something while you wait.
+
