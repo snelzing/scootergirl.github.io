@@ -33,6 +33,14 @@ header {
     text-decoration: underline; /* Add underline on hover for better visibility */
 }
 
+/* Additional reset for all ul elements, if needed */
+ul {
+    display: flex;         /* Change display to flex to enforce horizontal layout */
+    list-style-type: none; /* Remove any bullet points */
+    margin: 0;            /* Remove margin */
+    padding: 0;           /* Remove padding */
+}
+
 main {
     padding: 20px;
     max-width: 800px;
