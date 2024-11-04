@@ -52,12 +52,17 @@
         <p>Your go-to place for tech insights and thoughts</p>
     </header>
     
+<header>
+    <h1>Welcome to Shelby's Blog</h1>
     <nav>
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="#about">About Me</a>
-        <a href="{{ '/' | relative_url }}">Blog</a>
-        <a href="#contact">Contact</a>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="tech-blog.html">Tech Blog</a></li>
+            <li><a href="politics-blog.html">Politics Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
+</header>
     
     <main>
         {{ content }}  <!-- This is where the content from your pages will be inserted -->
