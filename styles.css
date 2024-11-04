@@ -18,13 +18,11 @@ nav {
     padding: 10px 0;        /* Padding for the nav */
 }
 
-.nav-menu {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0;           /* Remove default padding */
-    margin: 0;            /* Remove default margin */
-    display: flex;        /* Use flexbox to align items in a row */
-    justify-content: center; /* Center the nav items */
-}
+    .nav-menu {
+        display: flex; /* Test flex */
+        background-color: black; /* Test background */
+        color: white; /* Test text color */
+    }
 
 .nav-menu li {
     margin: 0 15px;       /* Space between the items */
