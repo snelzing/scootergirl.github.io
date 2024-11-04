@@ -1,0 +1,4 @@
+title: Shelby's Blog
+description: A blog about technology, embedded systems, Linux, and more.
+baseurl: "" # Leave this as an empty string if you're using a user page.
+url: "https://snelzing.github.io" # Your GitHub Pages URL
