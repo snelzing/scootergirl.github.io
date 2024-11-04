@@ -1,8 +1,10 @@
 ---
 layout: default
-title: "My First Post - Documenting setting up Github PAges as I set it up"
+title: "My First Post - Documenting setting up Github Pages as I set it up"
 date: 2024-11-03
 ---
+
+# My First Post - Documenting setting up Github Pages as I set it up
 
 This is only like my third try so that's great. 
 
