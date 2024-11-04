@@ -4,72 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}"> <!-- Link to your CSS if you have any -->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
-            padding: 1rem 0;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
-        }
-        nav a {
-            color: white;
-            padding: 14px 20px;
-            text-decoration: none;
-            text-align: center;
-        }
-        nav a:hover {
-            background-color: #575757;
-        }
-        main {
-            padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="/styles.css"> <!-- Link to your CSS file -->
 </head>
 <body>
     <header>
-        <h1>Welcome to Shelby's Blog</h1>
-        <p>Your go-to place for tech insights and thoughts</p>
+        <h1>{{ site.title }}</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="tech-blog.html">Tech Blog</a></li>
+                <li><a href="politics-blog.html">Politics Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    
-<header>
-    <h1>Welcome to Shelby's Blog</h1>
-    <nav>
-        <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="tech-blog.html">Tech Blog</a></li>
-            <li><a href="politics-blog.html">Politics Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
-    
+
     <main>
-        {{ content }}  <!-- This is where the content from your pages will be inserted -->
+        {{ content }} <!-- This is where the content from your index.md will be inserted -->
     </main>
 
     <footer>
-        <p>© 2024 Shelby's Blog | All Rights Reserved</p>
+        <p>&copy; 2024 Shelby's Blog</p>
     </footer>
 </body>
 </html>
