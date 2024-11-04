@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "My First Post- Documenting setting up Github PAges as I set it up"
+title: "My First Post - Documenting setting up Github PAges as I set it up"
 date: 2024-11-03
 ---
 
