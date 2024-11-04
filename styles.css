@@ -16,13 +16,14 @@ header {
 nav {
     background-color: #333; /* Dark background for the nav bar */
     padding: 10px 0;        /* Padding for the nav */
+    margin: 2em;
 }
 
-    .nav-menu {
+.nav-menu {
         display: flex; /* Test flex */
         background-color: black; /* Test background */
         color: white; /* Test text color */
-    }
+}
 
 .nav-menu li {
     margin: 0 15px;       /* Space between the items */
